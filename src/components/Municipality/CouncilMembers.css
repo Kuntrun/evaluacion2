@@ -1,0 +1,38 @@
+.council-section {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.council-content {
+  display: flex;
+  gap: 2rem;
+}
+
+.council-image-container {
+  flex: 0 0 200px;
+}
+
+.council-image {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.council-members-list {
+  flex: 1;
+}
+
+.member-name {
+  margin: 0.5rem 0;
+}
+
+.document-link {
+  display: inline-block;
+  margin-top: 1rem;
+  color: #23c7d2;
+  text-decoration: none;
+}
+
+.document-link:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,51 @@
+.mayor-section {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  text-align: center; 
+  padding: 20px;
+}
+
+.mayor-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  gap: 20px;
+}
+
+.mayor-image-container {
+  flex: 0 0 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mayor-image {
+  width: 200px;
+  height: auto;
+  border-radius: 50%; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.mayor-info {
+  flex: 1;
+  max-width: 600px;
+  text-align: center;
+}
+
+.mayor-details {
+  margin-top: 10px;
+}
+
+.detail-item {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.detail-label {
+  font-weight: bold;
+}
+
+.mayor-bio {
+  margin-top: 20px;
+}
